@@ -146,7 +146,7 @@ refdes=P1
 T 42400 44200 5 8 0 0 0 0 1
 device=pad
 T 41500 44100 5 10 0 0 0 0 1
-footprint=M2k5_plated
+footprint=M1k8_plated
 }
 C 41500 43000 1 0 0 pad_gnd.sym
 {
@@ -155,7 +155,7 @@ refdes=P2
 T 42400 43100 5 8 0 0 0 0 1
 device=pad
 T 41500 43000 5 10 0 0 0 0 1
-footprint=M2k5_plated
+footprint=M1k8_plated
 }
 C 41500 41900 1 0 0 pad_gnd.sym
 {
@@ -164,7 +164,7 @@ refdes=P3
 T 42400 42000 5 8 0 0 0 0 1
 device=pad
 T 41500 41900 5 10 0 0 0 0 1
-footprint=M2k5_plated
+footprint=M1k8_plated
 }
 C 41500 40800 1 0 0 pad_gnd.sym
 {
@@ -173,7 +173,7 @@ refdes=P4
 T 42400 40900 5 8 0 0 0 0 1
 device=pad
 T 41500 40800 5 10 0 0 0 0 1
-footprint=M2k5_plated
+footprint=M1k8_plated
 }
 C 43000 40600 1 0 0 gnd-1.sym
 N 42600 44500 43100 44500 4
