@@ -28,30 +28,32 @@ Author: Roman V. Prikhodchenko <chujoii@gmail.com>
   
   
 * Keywords:
-  i2c port bus expander 8-bit
+i2c port bus expander 8-bit
   
 
 * Description:
   
-  
-  
 * Usage:
-  
-  read with emacs (3__3) org mode
-  
-  
-  
+read with emacs (3__3) org mode
   
 * History:
-
-  initial project version began about 2013.05(May).21 
-
-  
-  
+initial project version began about 2013.05(May).21 
   
 * Dependences:
-  
-  
+| name                    | package                  | description                                                                    | quantity |
+|-------------------------+--------------------------+--------------------------------------------------------------------------------+----------|
+| PCF8574                 | SO16: SOT162-1 wide      | Remote 8-bit I/O expander for I2C-bus                                          |        1 |
+| PBD-16                  | for example: PBD-16      | Header - 2x8 Pin Female 2.54mm (you can buy a long bar and a bite extra pins)  |        1 |
+| PBS-16                  | for example: PBS-16      | Header - 1x16 Pin Female 2.54mm (you can buy a long bar and a bite extra pins) |        1 |
+| IRLML6302 (optional)    | SOT-23                   | p-channel mosfet, protect from reverse voltage polarity                        |        1 |
+| SWDIP-3 or SWDIP-4      | for example: DS1040-03RN | DIP switch: bend pins for make smd-like component                              |        1 |
+| resistor 10kΩ           | 0805                     | pull-up resistors                                                              |        3 |
+| capacitor ~0.1uF        | 0805                     | filter in power line                                                           |        3 |
+| capacitor tantal ~100uF | TANT_D                   | filter in power line                                                           |        1 |
+
+You need also 2x pull-up resistors 4.7kΩ for I2C (SDA, SCL)
+
+Vcc: 2.5 < Vcc < 6V   (5V recommended)
 
 * Code:
 
